@@ -1,0 +1,25 @@
+{
+  "name": "123-employee-tracker-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "empTracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giotala/Employee_Tracker_GT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giotala/Employee_Tracker_GT/issues"
+  },
+  "homepage": "https://github.com/giotala/Employee_Tracker_GT#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1"
+  }
+}
