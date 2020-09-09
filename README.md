@@ -118,6 +118,6 @@ Javascript
 
 
 ## links and photo
-![video](https://drive.google.com/file/d/1T3ijF-ImzPgdD9SHERJjOsymgzv5toLZ/view)
-![video](https://drive.google.com/file/d/1T3ijF-ImzPgdD9SHERJjOsymgzv5toLZ/view)
+
+(https://drive.google.com/file/d/1T3ijF-ImzPgdD9SHERJjOsymgzv5toLZ/view)
 ![photo](emptracker.PNG)
