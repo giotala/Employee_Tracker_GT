@@ -3,11 +3,11 @@
 
 Developers are often tasked with creating interfaces that make it easy for non-developers to view and interact with information stored in databases. Often these interfaces are known as **C**ontent **M**anagement **S**ystems. In this homework assignment, your challenge is to architect and build a solution for managing a company's employees using node, inquirer, and MySQL.
 
-## Instructions
+## what's in the app
 
 Design the following database schema containing three tables:
 
-![Database Schema](Assets/schema.png)
+
 
 * **department**:
 
@@ -55,19 +55,6 @@ I want to be able to view and manage the departments, roles, and employees in my
 So that I can organize and plan my business
 ```
 
-How do you deliver this? Here are some guidelines:
-
-* Use the [MySQL](https://www.npmjs.com/package/mysql) NPM package to connect to your MySQL database and perform queries.
-
-* Use [InquirerJs](https://www.npmjs.com/package/inquirer/v/0.2.3) NPM package to interact with the user via the command-line.
-
-* Use [console.table](https://www.npmjs.com/package/console.table) to print MySQL rows to the console. There is a built-in version of `console.table`, but the NPM package formats the data a little better for our purposes.
-
-* You may wish to have a separate file containing functions for performing specific SQL queries you'll need to use. Could a constructor function or a class be helpful for organizing these?
-
-* You will need to perform a variety of SQL JOINS to complete this assignment, and it's recommended you review the week's activities if you need a refresher on this.
-
-![Employee Tracker](Assets/employee-tracker.gif)
 
 ### Hints
 
@@ -93,8 +80,7 @@ How do you deliver this? Here are some guidelines:
 
   * Update employee roles
 
-## Bonus
-
+## Updates
 * The command-line application should allow users to:
 
   * Update employee managers
@@ -105,7 +91,7 @@ How do you deliver this? Here are some guidelines:
 
   * View the total utilized budget of a department -- ie the combined salaries of all employees in that department
 
-## Commit Early and Often
+## Notes to myself
 
 One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
@@ -124,12 +110,14 @@ Follow these guidelines for committing:
 * Test your application before you commit to ensure functionality at every step in the development process.
 
 We would like you to have well over 200 commits by graduation, so commit early and often!
+## Programs used
+Javascript
+  * mysql
+  * inquirer
+  * console.table
 
 
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URL of the GitHub repository
-
-* A video demonstrating the entirety of the app's functionality 
+## links and photo
+![video](https://drive.google.com/file/d/1T3ijF-ImzPgdD9SHERJjOsymgzv5toLZ/view)
+![video](https://drive.google.com/file/d/1T3ijF-ImzPgdD9SHERJjOsymgzv5toLZ/view)
+![photo](emptracker.PNG)
